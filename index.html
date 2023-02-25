@@ -1,26 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Snake Game</title>
-	<link rel="stylesheet" href="style.css">
+  <title>Resume</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-	<div id="game-container">
-		<canvas id="gc" class="game-canvas" width="400" height="400"></canvas>
-	</div>
-	<div class="keys">
-	  <a class="up arr" onclick="Snake.action('up')">
-	    <i class="chevron up"></i></a>
-	  <br />
-	  <a class="left arr" onclick="Snake.action('left')">
-	    <i class="chevron left"></i></a>
-	  <a class="down arr" onclick="Snake.action('down')">
-	    <i class="chevron down"></i></a>
-	  <a class="right arr" onclick="Snake.action('right')">
-	    <i class="chevron right"></i></a>
-	</div>
-	<script type="text/javascript" src="game.js"></script>
+<!-- partial:index.partial.html -->
+<div class="container">
+    <header class="header">
+        <h1 class="primary--heading">Aryan<span class="heading--deco">Porwal</span></h1>
+        <h2 class="secondary--heading">Software Developer</h2>
+    </header>
+    <aside class="aside">
+        <figure class="image__container"> <img src="https://cdn.pixabay.com/photo/2016/11/19/14/16/man-1839500__340.jpg" alt="" class="image"> </figure>
+        <article class="details">
+            <ul role="list" class="contact__information">
+                <h3 class="title">Contact</h3>
+                <li role="listitem"> <span class="icon"> <i class="fas fa-location-pin"></i> </span> <span class="text">Kanpur , UP</span> </li>
+                <li role="listitem"> <span class="icon"> <i class="fas fa-phone"></i> </span> <span class="text">+91 783 0039 xxx</span> </li>
+                <li role="listitem"> <span class="icon"> <i class="fas fa-envelope"></i> </span> <span class="text">aryanpgdca@gmail.com</span> </li>
+                <li role="listitem"> <span class="icon"> <i class="fas fa-laptop"></i> </span> <span class="text">github.com/aryanpgdca</span> </li>
+            </ul>
+            <ul role="list" class="education">
+                <h3 class="title">Education</h3>
+                <li role="listitem">
+                    <h4 class="sub--title">Schools:</h4>
+                    <ul role="list" class="sublist">
+                        <li role="listitem" class="sublistitem"> <span class="text sub--text">CSJM University , Kanpur</span> <span>2018</span> </li>
+                        <li role="listitem" class="sublistitem"> <span class="text sub--text">Govt. Polytechnic , Kanpur</span> <span>2021</span> </li>
+                        <!-- <li role="listitem" class="sublistitem"> <span class="text sub--text">University of Google</span> <span>2020</span> </li> -->
+                    </ul>
+                </li>
+                <li role="listitem">
+                    <h4 class="sub--title">Courses:</h4>
+                    <ul role="list" class="sublist">
+                        <li role="listitem" class="sublistitem"> <span class="text sub--text">PGDCA</span> <span>UPBTE</span> </li>
+                        <li role="listitem" class="sublistitem"> <span class="text sub--text">B.Sc.</span> <span>CSJMU</span> </li>
+                        <li role="listitem" class="sublistitem"> <span class="text sub--text">PHP with MySQL</span> <span>Ramavi Pvt.Ltd.</span> </li>            
+                        <li role="listitem" class="sublistitem"> <span class="text sub--text">Course on Computer Concepts</span> <span>NIELIT</span> </li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+    </aside>
+    <main class="main">
+        <article class="about__me">
+            <h3 class="title">About Me</h3>
+            <p>I’m a fresher pass out college student to seek a good & responsible job in professionally managed organization where in my conceptual and functional skills are effectively utilized in a way that contributes to the organization growth coupled with personal growth within the organization.</p> <br>
+            <p>I studied C , C++ , Python and Java Programming. I also studied about Database Management and I also have the basic knowledge of HTML & CSS.</p>
+        </article>
+        <article class="skills">
+            <h3 class="title">Skills</h3>
+            <div class="skills__content--flow">
+                <ol role="list" class="special__skills">
+                    <li role="listitem">Core Java</li>
+                    <li role="listitem">HTML & CSS</li>
+                    <li role="listitem">Python</li>
+                    <li role="listitem">Basic C Language</li>
+                    <li role="listitem">DataBase Management</li>
+                    <li role="listitem">Microsoft Office</li>
+                    <!-- <li role="listitem">Responsive layout</li> -->
+                </ol>
+                <section class="skill__diagram">
+                    <figcaption class="diagram">
+                        <h5 class="diagram--id">HTML & CSS</h5> <span class="skill-bar html">75%</span>
+                    </figcaption>
+                    <figcaption class="diagram">
+                        <h5 class="diagram--id">JAVA</h5> <span class="skill-bar css">70%</span>
+                    </figcaption>
+                    <figcaption class="diagram">
+                        <h5 class="diagram--id">Python</h5> <span class="skill-bar javascript">60%</span>
+                    </figcaption>
+                    <figcaption class="diagram">
+                        <h5 class="diagram--id">MS Office</h5> <span class="skill-bar python">67%</span>
+                    </figcaption>
+                </section>
+            </div>
+        </article>
+    </main>
+    <footer class="footer"></footer>
+</div>
+<!-- partial -->
+  
 </body>
 </html>
